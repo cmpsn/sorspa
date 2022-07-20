@@ -1,0 +1,65 @@
+{
+  "numeProdus": "Variable Product Name - bulk packages for this example",
+  "unitateMasura": "Quantity Measurement Unit",
+  "pacheteCustom": true,
+  "atribute": {
+    "pachet": [
+      "Set Minimum, 3 buc", 
+      "Set Medium, 6 buc",
+      "Set Maximum, 12 buc"
+    ]
+  },
+  "variante": [
+    {
+      "pachet": "Set Minimum, 3 buc",
+      "pachetCustomBucati": 3,
+      "sku": "XX-YY-01-MIN",
+      "pret": 13,
+      "costTransport": 19,
+      "imageSmall": {
+        "name": "img_set_minim",
+        "url": "/images/variant-img-set-minim.jpg",
+        "alt": "Lorem ipsum dolor sit amet.",
+        "width": "200",
+        "height": "200",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    },
+    {
+      "pachet": "Set Medium, 6 buc",
+      "pachetCustomBucati": 6,
+      "sku": "XX-YY-01-MED",
+      "pret": 11,
+      "costTransport": 19,
+      "imageSmall": {
+        "name": "img_set_mediu",
+        "url": "/images/variant-img-set-mediu.jpg",
+        "alt": "Lorem ipsum dolor sit amet.",
+        "width": "200",
+        "height": "200",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    },
+    {
+      "pachet": "Set Maximum, 12 buc",
+      "pachetCustomBucati": 12,
+      "sku": "XX-YY-01-MAX",
+      "pret": 9,
+      "costTransport": 19,
+      "imageSmall": {
+        "name": "img_set_maxim",
+        "url": "/images/variant-img-set-maxim.jpg",
+        "alt": "Lorem ipsum dolor sit amet.",
+        "width": "200",
+        "height": "200",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    }
+  ]
+}

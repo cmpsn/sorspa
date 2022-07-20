@@ -1,0 +1,223 @@
+// ==== Option A - Import all SCSS files from Bootstrap ======
+// ----- It's working with PURGE CSS library -------
+
+// ==== 2. Include any default variable overrides here ====
+// (though functions won't be available).
+
+// ----------- Colors --------------
+$gray-100:   #f8f9fa;
+$gray-200:   #e9ecef;
+$gray-300:   #dee2e6;
+$gray-400:   #ced4da;
+$gray-500:   #adb5bd;
+$gray-600:   #6c757d;
+$gray-700:   #495057;
+$gray-800:   #343a40;
+$gray-900:   #212529;
+
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+);
+
+$white:            #fff;
+$black:            #000;
+$purple:           #6f42c1;
+$red:              #ff0000;
+$red-wine:         #930128; //#aa4652;
+$red-light:        #cb0137;
+$red-dark:         #66001b;
+$green:            #006600;
+$green-light:      #28a745;
+$green-dark:       #0D6B2E;
+$blue:             #007bff;
+$blue-light:       #b3e0f2; //#87cefa;
+$blue-dark:        #0d4480;
+// $yellow-gold:      #F9F5DD;
+// $pink:             #e83e8c;
+// $orange:           #fd7e14;
+// $yellow:           #ffc107;
+// $transparentum:  rgba($white, 0);
+
+$colors: (
+  "white":          $white,
+  "black":          $black,
+  "purple":         $purple,
+  "red":            $red,
+  "red-wine":       $red-wine,
+  "red-light":      $red-light,
+  "red-dark":       $red-dark,
+  "green-light":    $green-light,
+  "green-dark":     $green-dark,
+  "green":          $green,
+  "blue":           $blue,
+  "blue-light":     $blue-light,
+  "blue-dark":      $blue-dark,
+  // "yellow-gold":    $yellow-gold,
+  // "pink":           $pink,
+  // "gray":           $gray-600,
+  // "gray-dark":      $gray-800,
+  // "orange":         $orange,
+  // "yellow":         $yellow,
+  // "transparent":    $transparentum 
+);
+
+// $divider: #BDBDBD;
+
+
+// ----------- Theme ------------
+$primary:                  $red-wine;
+$primary-dark:             $red-dark;
+$primary-light:            $red-light;
+$secondary:                $blue-dark;
+$green:                    $green;
+$wine:                     $red-wine;
+$success:                  $green-light;
+$danger:                   $red;
+$light:                    $gray-100;
+$dark:                     $gray-900;
+
+$theme-colors: (
+  "primary":          $primary,
+  "primary-dark":     $primary-dark,
+  "primary-light":    $primary-light,
+  "secondary":        $secondary,
+  "green":            $green,
+  "wine":             $wine,
+  "success":          $success,
+  "danger":           $danger,
+  "light":            $light,
+  "dark":             $dark
+);
+
+
+//------------ Options -----------
+$enable-shadows:               false;
+$enable-gradients:             true;
+
+
+// ------------ Body ---------------
+// $body-bg:           $gray-100;
+$body-color:        $gray-800;
+
+
+// ---------- Spacing --------------
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 5),
+  7: ($spacer * 8),
+  8: ($spacer * 12),
+  9: ($spacer * 16),
+  10: ($spacer * 20),
+);
+
+// ------- Grid Breakpoints -------
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px,
+  xxl: 1520px,
+  xxxl: 1840px,
+  kl: 3760px
+);
+
+// ------ Grid containers --------
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440,
+  xxxl: 1600px,
+  kl: 3280px
+);
+
+
+// ---------- Typography --------------
+$line-height-base:            1.5;
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            $font-family-sans-serif;
+
+$font-size-base:              1.125rem; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25;
+$font-size-sm:                $font-size-base * .875;
+
+// ----------- Buttons + Forms ----------
+$input-btn-line-height:       $line-height-base;
+$input-btn-padding-y:         .375rem;
+
+//------------ Forms ---------------
+$input-line-height:            $input-btn-line-height;
+$input-padding-y:              $input-btn-padding-y;
+$input-bg:                              $white;
+
+// ========= END Variable overrides =============
+
+
+// ========== 2. Import global Bootstrap SCSS ============
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// ========== 3. Add additional custom code here =========
+// .........
+
+
+
+
+// ========= Option B - Include only those SCSS files thate is actually used ========
+// ------- !!!! NOT working with PURGE CSS library --------
+
+
+// ==== 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../node_modules/bootstrap/scss/functions";
+
+
+// ==== 2. Include any default variable overrides here ====
+// ----------- Colors --------------
+// $gray-100:   #f8f9fa;
+// $gray-200:   #e9ecef;
+// $gray-300:   #dee2e6;
+// $gray-400:   #ced4da;
+// $gray-500:   #adb5bd;
+// $gray-600:   #6c757d;
+// $gray-700:   #495057;
+// $gray-800:   #343a40;
+// $gray-900:   #212529;
+// ..............
+
+// ==== 3. Include remainder of REQUIRED Bootstrap stylesheets ====
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+
+// // ==== 4. Include any optional Bootstrap components ====
+// @import "../node_modules/bootstrap/scss/root";
+// @import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/type";
+// @import "../node_modules/bootstrap/scss/containers";
+// @import "../node_modules/bootstrap/scss/grid";
+// @import "../node_modules/bootstrap/scss/utilities";
+// @import "../node_modules/bootstrap/scss/utilities/api";
+// @import "../node_modules/bootstrap/scss/buttons";
+// @import "../node_modules/bootstrap/scss/spinners";
+// @import "../node_modules/bootstrap/scss/forms";
+
+// ==== 5. Add additional custom code here ====
+// ...........

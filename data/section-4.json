@@ -1,0 +1,76 @@
+{
+  "id": "section4",
+  "title": "Section 4 Title",
+  "contentBlocks": [
+    {
+      "id": 1,
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "paragraphs": [],
+      "list": {
+        "title": null,
+        "items": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum dolor sit amet"
+          },
+          {
+            "id": 2,
+            "text": "Lorem ipsum dolor sit amet"
+          },
+          {
+            "id": 3,
+            "text": "Lorem ipsum dolor sit amet"
+          }
+        ]
+      },
+      "image": {
+        "name": "section_4_img_1",
+        "url": "/images/section-4-img-1.jpg",
+        "alt": "Lorem ipsum dolor sit amet",
+        "width": "800",
+        "height": "800",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    },
+
+    {
+      "id": 2,
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+        "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      ],
+      "list": {
+        "title": "Lorem ipsum:",
+        "items": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum dolor sit amet"
+          },
+          {
+            "id": 2,
+            "text": "Lorem ipsum dolor sit amet"
+          },
+          {
+            "id": 3,
+            "text": "Lorem ipsum dolor sit amet"
+          }
+        ]
+      },
+      "image": {
+        "name": "section_4_img_2",
+        "url": "/images/section-4-img-2.jpg",
+        "alt": "Lorem ipsum dolor sit amet",
+        "width": "800",
+        "height": "600",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    }
+
+  ]
+}

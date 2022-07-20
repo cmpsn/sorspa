@@ -1,0 +1,41 @@
+{
+  "id": "sectionFaqs",
+  "title": "FAQs section title",
+  "items": [
+    {
+      "itemId": 1,
+      "itemTitle": "How can I?",
+      "itemContent": "Like this ..."
+    },
+    {
+      "itemId": 2,
+      "itemTitle": "How can I?",
+      "itemContent": "Like this ..."
+    },
+    {
+      "itemId": 3,
+      "itemTitle": "How can I?",
+      "itemContent": "Like this ..."
+    },
+    {
+      "itemId": 4,
+      "itemTitle": "How can I?",
+      "itemContent": "Like this ..."
+    },
+    {
+      "itemId": 5,
+      "itemTitle": "How can I?",
+      "itemContent": "Like this ..."
+    },
+    {
+      "itemId": 6,
+      "itemTitle": "How can I?",
+      "itemContent": "Like this ..."
+    },
+    {
+      "itemId": 7,
+      "itemTitle": "How can I?",
+      "itemContent": "Like this ..."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "title": "Hero Title",
+  "slogans": [
+    "Lorem ipsum dolor sit amet."
+  ],
+  "textPrice": {
+    "title": "Price box title",
+    "paragraphs": [
+      "Lorem ipsum dolor sit amet.",
+      "Lorem ipsum dolor sit amet."
+    ]
+  },
+  "prices": {
+    "oldPrice": 2,
+    "newPrice": 1
+  },
+  "stock": {
+    "totalStock": 100,
+    "availableStock": 10
+  },
+  "textTimer": "Sales ending in",
+  "images": [
+    {
+      "id": "1",
+      "name": "hero_image_1",
+      "url": "/images/hero-image-1.jpg",
+      "alt": "Lorem ipsum dolor sit amet",
+      "width": "600",
+      "height": "600",
+      "formats": {
+        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      }
+    },
+    {
+      "id": "2",
+      "name": "hero_image_2",
+      "url": "/images/hero-image-2.jpg",
+      "alt": "Lorem ipsum dolor sit amet",
+      "width": "600",
+      "height": "600",
+      "formats": {
+        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      }
+    }
+  ],
+  "shippingLabel": {
+  },
+  "salesLabel": {
+    "name": "sales_label",
+    "url": "/images/sales-label.png",
+    "alt": "sales 50%",
+    "width": "200",
+    "height": "200",
+    "formats": {
+      "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+    }
+  },
+  "satisfactionLabel": {
+    "name": "satisfaction_label",
+    "url": "/images/satisfaction-label.png",
+    "alt": "satisfaction guaranteed",
+    "width": "200",
+    "height": "200",
+    "formats": {
+      "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+    }
+  }
+}

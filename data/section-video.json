@@ -1,0 +1,31 @@
+{
+  "id": "sectionVideo1",
+  "title": "Video Section Title",
+  "paragraphs": [
+  ],
+  "list": {
+    "title": null,
+    "items": [
+      {
+        "id": 1,
+        "text": "Lorem ipsum dolor sit amet."
+      },
+      {
+        "id": 2,
+        "text": "Lorem ipsum dolor sit amet.."
+      },
+      {
+        "id": 3,
+        "text": "Lorem ipsum dolor sit amet."
+      }
+    ]
+  },
+  "video": {
+    "videoTitle": "Video Title",
+    "videoEmbedId": "Azz00yyoWbn4",
+    "aspectWidth": 16,
+    "aspectHeight": 9,
+    "videoWidth": "1218",
+    "videoHeight": "685"
+  }
+}

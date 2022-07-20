@@ -1,0 +1,63 @@
+{
+  "id": "section3",
+  "title": "Section 3 Title",
+  "contentBlocks": [
+    {
+      "id": 1,
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet"
+      ],
+      "list": {
+        "title": null,
+        "items": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum dolor sit amet"
+          }
+        ]
+      },
+      "image": {
+        "name": "section_3_img_1",
+        "url": "/images/section-3-img-1.jpg",
+        "alt": "Lorem ipsum dolor sit amet",
+        "width": "400",
+        "height": "400",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    },
+    {
+      "id": 2,
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet"
+      ],
+      "list": {
+        "title": null,
+        "items": [
+          {
+            "id": 1,
+            "text": "Lorem ipsum dolor sit amet"
+          },
+          {
+            "id": 2,
+            "text": "Lorem ipsum dolor sit amet"
+          }
+        ]
+      },
+      "image": {
+        "name": "section_3_img_2",
+        "url": "/images/section-3-img-2.jpg",
+        "alt": "Lorem ipsum dolor sit amet",
+        "width": "400",
+        "height": "400",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    }
+    
+  ]
+}

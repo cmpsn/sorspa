@@ -1,0 +1,33 @@
+{
+  "domain": {
+    "name": "Example",
+    "url": "https://example.com"
+  },
+  "siteName": "My site name",
+  "metaTitle": "Title for meta",
+  "metaDescription": "Powered by",
+  "metaImage": {
+    "src": "/images/meta-image.jpg",
+    "alt": "Lorem ipsum dolor sit amet."
+  },
+  
+  "gdpr": {
+    "contactTag": "Contact",
+    "aboutTag": "About us",
+    "privacyTag": "Privacy",
+    "cookiesTag": "Cookie Policy",
+    "termsTag": "Terms and conditions",
+    "refundTag": "Refund info page",
+    "anpc": {
+      "name": "ANPC", 
+      "url": "ANPC URL"
+    },
+    "contactData": {
+      "sellerName": "Seller Name",
+      "sellerRegCom": "Seller Registration Code",
+      "sellerCUI": "Seller CUI",
+      "contactTel": "0700000000",
+      "contactEmail": "contact@example.com"
+    }
+  }
+}

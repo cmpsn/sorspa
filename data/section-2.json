@@ -1,0 +1,39 @@
+{
+  "id": "section2",
+  "title": "Section 2 Title",
+  "contentBlocks": [
+    {
+      "id": 1,
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "paragraphs": [],
+      "list": {},
+      "image": {
+        "name": "section_2_img_1",
+        "url": "/images/section-2-img-1.jpg",
+        "alt": "Lorem ipsum dolor sit amet",
+        "width": "530",
+        "height": "568",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    },
+    {
+      "id": 4,
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "paragraphs": [],
+      "list": {},
+      "image": {
+        "name": "section_2_img_4",
+        "url": "/images/section-2-img-4.jpg",
+        "alt": "Lorem ipsum dolor sit amet",
+        "width": "530",
+        "height": "568",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    }
+    
+  ]
+}

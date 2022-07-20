@@ -1,0 +1,69 @@
+/* import customized Bootstrap SCSS in the global scss */
+@import "custom-bootstrap";
+
+/* ======== Add more Global SCSS ========== */
+.errorMsg {
+  color: $red;
+  padding: .2rem .5rem;
+  font-size: .875em;
+  text-align: left;
+}
+
+// ----- Link style within text
+a.link-within-text {
+  color: $gray-900;
+  text-decoration: underline;
+}
+a.link-within-text:hover {
+  color: $blue-dark;
+}
+
+// ----- List style
+ul.no-bullets {
+  list-style-type: none;
+}
+
+ul.square-bullets {
+  list-style-type: none;
+  list-style-image: linear-gradient(to left bottom, yellow, purple);
+}
+ul.square-bullets li {
+  padding: 0 0 10px 10px;
+}
+
+// ----- Quotation marks
+.custom-quotes {
+  quotes: "„" "”" "‘" "’";
+}
+
+.custom-quotes::before {
+  content: open-quote;
+}
+.custom-quotes::after {
+  content: close-quote;
+}
+
+// ----- Increase font size in paragr. and lists for lg & up screens -----
+p, ul {
+  @include media-breakpoint-up(lg) {
+    font-size: rfs-fluid-value(1.25rem);
+  }
+}
+
+// ----- HERO background -------------
+.custom-hero {
+  @include gradient-x-three-colors(
+    $start-color: $white, 
+    $mid-color: $blue-light, 
+    $color-stop: 50%, 
+    $end-color: $white
+  );
+  @include media-breakpoint-down(md) {
+    @include gradient-y-three-colors(
+      $start-color: $white, 
+      $mid-color: $blue-light, 
+      $color-stop: 50%, 
+      $end-color: $white
+    );
+  }
+}

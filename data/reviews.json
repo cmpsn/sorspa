@@ -1,0 +1,39 @@
+{
+  "title": "Client Reviews",
+  "contentBlocks": [
+    {
+      "id": 1,
+      "nume": "Gabriela",
+      "varsta": "36 years old, London",
+      "paragra": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+      "image": {
+        "name": "review_1",
+        "url": "/images/rev-img-1.jpg",
+        "alt": "Lorem ipsum dolor sit amet.",
+        "width": "400",
+        "height": "300",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    },
+
+    {
+      "id": 2,
+      "nume": "Alhambra",
+      "varsta": "31 years old, London",
+      "paragra": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+      "image": {
+        "name": "review_2",
+        "url": "/images/rev-img-2.jpg",
+        "alt": "Lorem ipsum dolor sit amet.",
+        "width": "400",
+        "height": "300",
+        "formats": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        }
+      }
+    }
+
+  ]
+}
